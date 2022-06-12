@@ -1,0 +1,11 @@
+PRIMEROS COMANDOS EN "C"
+
+#include <stdio.h> LIBRERIAS
+
+int main(){ inicializamos una función
+
+	Printf("TEXTO"); imprime en pantalla lo que pongas entre parentesis, el; hay que añadirlo siempre al final de los (). Si al texto le añadimos un \n lo que hacemos es saltos de linea. normalmente lo añadimos al final de cada frase.
+
+Return 0; el return sirve para decirle al S.O si esta todo en orden, si funciona y va bien, el S.O te pone un 0 sino te coloca otro número
+
+}

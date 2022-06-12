@@ -1,0 +1,19 @@
+#include <stdio.h> #LIBRERIAS#
+#include <stdlib.h> #LIBRERIAS#
+
+int main(){
+	int op1, op2, result; #DECLARAMOS VARIABLES#
+
+	printf("Inserte el primer operando: "); #SE MUESTRA EN PANTALLA LO QUE ESCRIBO ENTRE ""# 
+	scanf("%i", &op1); #LO QUE AÑADA EL USUARIO, SE GUARDA EN  OP1#
+
+	printf("Inserte el segundo operando: "); #SE MUESTRA EN PANTALLA LO QUE ESCRIBO ENTRE ""#
+	scanf("%i", &op2); #LO QUE AÑADA EL USUARIO, LO GUARDA EN OP2#
+
+	result = op1 + op2; #LA VARIABLE RESULTADO VA A SER IGUAL AL OP1 Y OP2, SCANEADO EN PANTALLA ANTERIORMENTE#
+
+	printf("la suma es igual a: %i \n", result); #IMPRIME EN PANTALLA LOS "" Y LA VARIABLE RESULTADO#
+
+	return EXIT_SUCCESS; #DEVUELVE EXIT_SUCESS = #0 DECLARADO EN LA LIBRERIA STDLIB.H#
+
+}
